@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | My Blatant Rublings]]></title>
+  <link href="http://enzor.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://enzor.github.io/"/>
+  <updated>2015-11-13T11:44:28+00:00</updated>
+  <id>http://enzor.github.io/</id>
+  <author>
+    <name><![CDATA[Enzo Rivello]]></name>
+    <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Same quality conversion from PDF to image in RMagick]]></title>
+    <link href="http://enzor.github.io/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick/"/>
+    <updated>2013-09-12T14:08:00+01:00</updated>
+    <id>http://enzor.github.io/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick</id>
+    <content type="html"><![CDATA[<p>Today one of my tasks was to convert a pdf to a png of the same quality, but sadly, all my attempts were all low resolution.<br />
+So after a little research on the documentation i found out the density option, which by default is 72. PDF is around 300, so 200 is a good tradeoff (at least, for now).<br />
+Also, i found a little bit misguiding that in some guides , the density declaration is after the write function, while should be right after you read the file&hellip;.by the way, here is a nice example! Enjoy!</p>
+
+<br />
+
+
+<p>``` ruby Conversion from PDF to Image without quality loss.
+require &lsquo;rmagick&rsquo;</p>
+
+<h1>Usage: MyFancyConverter.convert(&ldquo;path/to/your/file.pdf&rdquo;, &ldquo;.png&rdquo;)</h1>
+
+<p>class MyFancyConverter
+  def self.convert(file_path, format)</p>
+
+<pre><code>image = Magick::ImageList.new(file_path) { self.density = 200 }
+image.write(file_path.gsub(".pdf", ".#{format}")) 
+</code></pre>
+
+<p>  end
+end
+```</p>
+]]></content>
+  </entry>
+  
+</feed>

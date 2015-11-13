@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://enzor.github.io/sitemap.xml 

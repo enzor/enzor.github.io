@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: benchmark | My Blatant Rublings]]></title>
+  <link href="http://enzor.github.io/blog/categories/benchmark/atom.xml" rel="self"/>
+  <link href="http://enzor.github.io/"/>
+  <updated>2015-11-13T11:44:28+00:00</updated>
+  <id>http://enzor.github.io/</id>
+  <author>
+    <name><![CDATA[Enzo Rivello]]></name>
+    <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The importance of being O(n)]]></title>
+    <link href="http://enzor.github.io/blog/2013/10/22/the-importance-of-being-o-n/"/>
+    <updated>2013-10-22T19:04:00+01:00</updated>
+    <id>http://enzor.github.io/blog/2013/10/22/the-importance-of-being-o-n</id>
+    <content type="html"><![CDATA[<p>Understaing complexity is very important, expecially in powerful languages like Ruby.</p>
+
+<p>Take for example this implementation of a <b>Deck</b> class:</p>
+
+<p>``` ruby Deck class, First implementation
+class Deck
+  SUITES = [&ldquo;C&rdquo;,&ldquo;D&rdquo;,&ldquo;H&rdquo;,&ldquo;S&rdquo;]
+  VALUES = [&ldquo;2&rdquo;,&ldquo;3&rdquo;,&ldquo;4&rdquo;,&ldquo;5&rdquo;,&ldquo;6&rdquo;,&ldquo;7&rdquo;,&ldquo;8&rdquo;,&ldquo;9&rdquo;,&ldquo;10&rdquo;,&ldquo;J&rdquo;,&ldquo;Q&rdquo;,&ldquo;K&rdquo;,&ldquo;A&rdquo;]</p>
+
+<p>  attr_accessor :cards</p>
+
+<p>  #YAY! fantastic O(N<sup>2</sup>) initialization :&ndash;/
+  def initialize</p>
+
+<pre><code>@cards = []
+SUITES.each do |suite|
+  VALUES.each do |value|
+    @cards &lt;&lt; "#{value}#{suite}"
+  end      
+end
+</code></pre>
+
+<p>  end
+end
+```</p>
+
+<p>As you can see here, the code is correct, but very little efficient.
+To create the deck, we need to go 13 times for every element in the SUITES array. <br />
+13 * 4 = <b>52</b> iterations. The complexity is clearly <b>O(n<sup>2</sup>)</b>.
+Since we are working with a little set of data, this may be negligible, but still, is there a better way to write this code?</p>
+
+<p>Presenting the <b>ImprovedDeck</b> class!</p>
+
+<p>``` ruby Deck class, second implementation
+class ImprovedDeck
+  VALUES = [&ldquo;2&rdquo;,&ldquo;3&rdquo;,&ldquo;4&rdquo;,&ldquo;5&rdquo;,&ldquo;6&rdquo;,&ldquo;7&rdquo;,&ldquo;8&rdquo;,&ldquo;9&rdquo;,&ldquo;10&rdquo;,&ldquo;J&rdquo;,&ldquo;Q&rdquo;,&ldquo;K&rdquo;,&ldquo;A&rdquo;]</p>
+
+<p>  attr_accessor :cards</p>
+
+<p>  #YAY! Much better O(N) initialization :-D
+  def initialize</p>
+
+<pre><code>@cards = []
+VALUES.each do |value|
+  @cards &lt;&lt; ["#{value}C","#{value}D","#{value}H","#{value}S"]
+end
+@cards.flatten!
+</code></pre>
+
+<p>  end</p>
+
+<p>end
+```</p>
+
+<p>In the code above, we  go through each element of the VALUES array only once, returning, in the end,the same deck as the first implementation. The tradeoff of this quickening is the face that we cannot input dynamically the SUITES inside the class, but this is not the case in which we have more than the regular set of suites.</p>
+
+<p>Complexity now is <b>O(n)</b> , confirmed also by the following benchmarks:</p>
+
+<p>``` bash Benchmarks
+(on running 1000 times the same method)</p>
+
+<pre><code>               user     system      total         real
+</code></pre>
+
+<p>Deck           0.680000   0.020000   0.700000 (  0.703846)
+Improved Deck  0.050000   0.000000   0.050000 (  0.047859)</p>
+
+<p>```</p>
+
+<p>Of course, real-life cases are not so easy to solve, and sometimes an <b>O(n<sup>2</sup>)</b> complexity is more than acceptable for a certain problem, but i think is a good practice to keep your mind open to further optimize your code.</p>
+
+<p>PS: 1 bazillion thanks to <a href="http://truffles.me.uk">Tim Ruffles</a> for his help and constructive criticism. I wish all the critics was like yours!</p>
+]]></content>
+  </entry>
+  
+</feed>

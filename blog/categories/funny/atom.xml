@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: funny | My Blatant Rublings]]></title>
+  <link href="http://enzor.github.io/blog/categories/funny/atom.xml" rel="self"/>
+  <link href="http://enzor.github.io/"/>
+  <updated>2015-11-13T11:44:28+00:00</updated>
+  <id>http://enzor.github.io/</id>
+  <author>
+    <name><![CDATA[Enzo Rivello]]></name>
+    <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Scala after Erlang, with a history of Ruby and Actionscript]]></title>
+    <link href="http://enzor.github.io/blog/2013/10/08/learning-scala-after-erlang/"/>
+    <updated>2013-10-08T10:18:00+01:00</updated>
+    <id>http://enzor.github.io/blog/2013/10/08/learning-scala-after-erlang</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/woah.gif" width="340" height="205"></p>
+]]></content>
+  </entry>
+  
+</feed>
