@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Standard | My Blatant Rublings]]></title>
+  <link href="http://enzor.github.io/blog/categories/standard/atom.xml" rel="self"/>
+  <link href="http://enzor.github.io/"/>
+  <updated>2015-11-22T11:42:29+00:00</updated>
+  <id>http://enzor.github.io/</id>
+  <author>
+    <name><![CDATA[Enzo Rivello]]></name>
+    <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LWS Flash Talk - Role Switching]]></title>
+    <link href="http://enzor.github.io/blog/2015/11/22/lws-flast-talk-role-switching/"/>
+    <updated>2015-11-22T11:15:00+00:00</updated>
+    <id>http://enzor.github.io/blog/2015/11/22/lws-flast-talk-role-switching</id>
+    <content type="html"><![CDATA[<br />
+
+
+<p>Last Monday I had the pleasure to do a Flash Talk at <a href="http://londonwebstandards.org/2015/11/lws-november-16-2015-flexing-your-computer-lwsokflex/">London Web Standard</a>, a monthly meetup made to discuss the state of the web, discuss and learn new technologies. <br />
+For this talk I brought one of the processes I mostly cherish &ndash; Role Switching, or how to walk one mile in the shoes of your fellow developer and understand his problems and difficulties, with the final goel to  grow both as an engineer and as a human being.<br />
+Speaking from personal experience, I highly suggest you to try this process at least once EXPECIALLY if conflicts are common and tension is high in between members of your team. <br />
+I hope you will enjoy this presentation as much as I enjoyed creating it (video will be up soon)<br /></p>
+
+<p><script async="true" class="speakerdeck-embed" data-id="1edf95e859f148218fd00f2b7a9c56ff" src="//speakerdeck.com/assets/embed.js"> </script></p>
+]]></content>
+  </entry>
+  
+</feed>
