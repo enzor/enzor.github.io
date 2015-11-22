@@ -2,36 +2,36 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://enzor.github.io/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick/
+            http://rublings.com/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick/
         </loc>
         <lastmod>2015-11-13T11:36:35+00:00</lastmod>
     </url>
     <url>
-        <loc>http://enzor.github.io/blog/2013/10/08/learning-scala-after-erlang/</loc>
+        <loc>http://rublings.com/blog/2013/10/08/learning-scala-after-erlang/</loc>
         <lastmod>2015-11-13T11:36:35+00:00</lastmod>
     </url>
     <url>
-        <loc>http://enzor.github.io/blog/2013/10/22/the-importance-of-being-o-n/</loc>
+        <loc>http://rublings.com/blog/2013/10/22/the-importance-of-being-o-n/</loc>
         <lastmod>2015-11-13T11:36:35+00:00</lastmod>
     </url>
     <url>
-        <loc>http://enzor.github.io/blog/2013/10/23/about-bad-practices/</loc>
+        <loc>http://rublings.com/blog/2013/10/23/about-bad-practices/</loc>
         <lastmod>2015-11-13T11:36:35+00:00</lastmod>
     </url>
     <url>
-        <loc>http://enzor.github.io/blog/2015/11/22/lws-flast-talk-role-switching/</loc>
+        <loc>http://rublings.com/blog/2015/11/22/lws-flast-talk-role-switching/</loc>
         <lastmod>2015-11-22T11:42:28+00:00</lastmod>
     </url>
     <url>
-        <loc>http://enzor.github.io/</loc>
+        <loc>http://rublings.com/</loc>
         <lastmod>2015-11-22T11:42:28+00:00</lastmod>
     </url>
     <url>
-        <loc>http://enzor.github.io/robots.txt</loc>
+        <loc>http://rublings.com/robots.txt</loc>
         <lastmod>2015-11-13T11:36:35+00:00</lastmod>
     </url>
     <url>
-        <loc>http://enzor.github.io/blog/archives/</loc>
+        <loc>http://rublings.com/blog/archives/</loc>
         <lastmod>2015-11-22T11:42:28+00:00</lastmod>
     </url>
 </urlset>

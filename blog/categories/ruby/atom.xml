@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby | My Blatant Rublings]]></title>
-  <link href="http://enzor.github.io/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://enzor.github.io/"/>
-  <updated>2015-11-22T11:44:33+00:00</updated>
-  <id>http://enzor.github.io/</id>
+  <link href="http://rublings.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://rublings.com/"/>
+  <updated>2015-11-22T11:56:31+00:00</updated>
+  <id>http://rublings.com/</id>
   <author>
     <name><![CDATA[Enzo Rivello]]></name>
     <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Same quality conversion from PDF to image in RMagick]]></title>
-    <link href="http://enzor.github.io/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick/"/>
+    <link href="http://rublings.com/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick/"/>
     <updated>2013-09-12T14:08:00+01:00</updated>
-    <id>http://enzor.github.io/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick</id>
+    <id>http://rublings.com/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick</id>
     <content type="html"><![CDATA[<p>Today one of my tasks was to convert a pdf to a png of the same quality, but sadly, all my attempts were all low resolution.<br />
 So after a little research on the documentation i found out the density option, which by default is 72. PDF is around 300, so 200 is a good tradeoff (at least, for now).<br />
 Also, i found a little bit misguiding that in some guides , the density declaration is after the write function, while should be right after you read the file&hellip;.by the way, here is a nice example! Enjoy!</p>

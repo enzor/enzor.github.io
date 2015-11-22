@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: erlang | My Blatant Rublings]]></title>
-  <link href="http://enzor.github.io/blog/categories/erlang/atom.xml" rel="self"/>
-  <link href="http://enzor.github.io/"/>
-  <updated>2015-11-22T11:44:33+00:00</updated>
-  <id>http://enzor.github.io/</id>
+  <link href="http://rublings.com/blog/categories/erlang/atom.xml" rel="self"/>
+  <link href="http://rublings.com/"/>
+  <updated>2015-11-22T11:56:31+00:00</updated>
+  <id>http://rublings.com/</id>
   <author>
     <name><![CDATA[Enzo Rivello]]></name>
     <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Learning Scala after Erlang, with a history of Ruby and Actionscript]]></title>
-    <link href="http://enzor.github.io/blog/2013/10/08/learning-scala-after-erlang/"/>
+    <link href="http://rublings.com/blog/2013/10/08/learning-scala-after-erlang/"/>
     <updated>2013-10-08T10:18:00+01:00</updated>
-    <id>http://enzor.github.io/blog/2013/10/08/learning-scala-after-erlang</id>
+    <id>http://rublings.com/blog/2013/10/08/learning-scala-after-erlang</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/woah.gif" width="340" height="205"></p>
 ]]></content>
   </entry>

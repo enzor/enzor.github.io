@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Process | My Blatant Rublings]]></title>
-  <link href="http://enzor.github.io/blog/categories/process/atom.xml" rel="self"/>
-  <link href="http://enzor.github.io/"/>
-  <updated>2015-11-22T11:44:33+00:00</updated>
-  <id>http://enzor.github.io/</id>
+  <link href="http://rublings.com/blog/categories/process/atom.xml" rel="self"/>
+  <link href="http://rublings.com/"/>
+  <updated>2015-11-22T11:56:31+00:00</updated>
+  <id>http://rublings.com/</id>
   <author>
     <name><![CDATA[Enzo Rivello]]></name>
     <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[LWS Flash Talk - Role Switching]]></title>
-    <link href="http://enzor.github.io/blog/2015/11/22/lws-flast-talk-role-switching/"/>
+    <link href="http://rublings.com/blog/2015/11/22/lws-flast-talk-role-switching/"/>
     <updated>2015-11-22T11:15:00+00:00</updated>
-    <id>http://enzor.github.io/blog/2015/11/22/lws-flast-talk-role-switching</id>
+    <id>http://rublings.com/blog/2015/11/22/lws-flast-talk-role-switching</id>
     <content type="html"><![CDATA[<br />
 
 

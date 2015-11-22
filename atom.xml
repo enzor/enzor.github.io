@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Blatant Rublings]]></title>
-  <link href="http://enzor.github.io/atom.xml" rel="self"/>
-  <link href="http://enzor.github.io/"/>
-  <updated>2015-11-22T11:44:33+00:00</updated>
-  <id>http://enzor.github.io/</id>
+  <link href="http://rublings.com/atom.xml" rel="self"/>
+  <link href="http://rublings.com/"/>
+  <updated>2015-11-22T11:56:31+00:00</updated>
+  <id>http://rublings.com/</id>
   <author>
     <name><![CDATA[Enzo Rivello]]></name>
     <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[LWS Flash Talk - Role Switching]]></title>
-    <link href="http://enzor.github.io/blog/2015/11/22/lws-flast-talk-role-switching/"/>
+    <link href="http://rublings.com/blog/2015/11/22/lws-flast-talk-role-switching/"/>
     <updated>2015-11-22T11:15:00+00:00</updated>
-    <id>http://enzor.github.io/blog/2015/11/22/lws-flast-talk-role-switching</id>
+    <id>http://rublings.com/blog/2015/11/22/lws-flast-talk-role-switching</id>
     <content type="html"><![CDATA[<br />
 
 
@@ -26,25 +26,25 @@ For this talk I brought one of the processes I mostly cherish &ndash; Role Switc
 Speaking from personal experience, I highly suggest you to try this process at least once EXPECIALLY if conflicts are common and tension is high in between members of your team. <br />
 I hope you will enjoy this presentation as much as I enjoyed creating it (video will be up soon)<br /></p>
 
-<script async="true" class="speakerdeck-embed" data-id="1edf95e859f148218fd00f2b7a9c56ff" src="http://enzor.github.io//speakerdeck.com/assets/embed.js"> </script>
+<script async="true" class="speakerdeck-embed" data-id="1edf95e859f148218fd00f2b7a9c56ff" src="http://rublings.com//speakerdeck.com/assets/embed.js"> </script>
 
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[About bad practices....]]></title>
-    <link href="http://enzor.github.io/blog/2013/10/23/about-bad-practices/"/>
+    <link href="http://rublings.com/blog/2013/10/23/about-bad-practices/"/>
     <updated>2013-10-23T10:27:00+01:00</updated>
-    <id>http://enzor.github.io/blog/2013/10/23/about-bad-practices</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://enzor.github.io/images/find.jpg" width="776" height="424"></p>
+    <id>http://rublings.com/blog/2013/10/23/about-bad-practices</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://rublings.com/images/find.jpg" width="776" height="424"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The importance of being O(n)]]></title>
-    <link href="http://enzor.github.io/blog/2013/10/22/the-importance-of-being-o-n/"/>
+    <link href="http://rublings.com/blog/2013/10/22/the-importance-of-being-o-n/"/>
     <updated>2013-10-22T19:04:00+01:00</updated>
-    <id>http://enzor.github.io/blog/2013/10/22/the-importance-of-being-o-n</id>
+    <id>http://rublings.com/blog/2013/10/22/the-importance-of-being-o-n</id>
     <content type="html"><![CDATA[<p>Understaing complexity is very important, expecially in powerful languages like Ruby.</p>
 
 <p>Take for example this implementation of a <b>Deck</b> class:</p>
@@ -147,18 +147,18 @@ Since we are working with a little set of data, this may be negligible, but stil
   
   <entry>
     <title type="html"><![CDATA[Learning Scala after Erlang, with a history of Ruby and Actionscript]]></title>
-    <link href="http://enzor.github.io/blog/2013/10/08/learning-scala-after-erlang/"/>
+    <link href="http://rublings.com/blog/2013/10/08/learning-scala-after-erlang/"/>
     <updated>2013-10-08T10:18:00+01:00</updated>
-    <id>http://enzor.github.io/blog/2013/10/08/learning-scala-after-erlang</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://enzor.github.io/images/woah.gif" width="340" height="205"></p>
+    <id>http://rublings.com/blog/2013/10/08/learning-scala-after-erlang</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://rublings.com/images/woah.gif" width="340" height="205"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Same quality conversion from PDF to image in RMagick]]></title>
-    <link href="http://enzor.github.io/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick/"/>
+    <link href="http://rublings.com/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick/"/>
     <updated>2013-09-12T14:08:00+01:00</updated>
-    <id>http://enzor.github.io/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick</id>
+    <id>http://rublings.com/blog/2013/09/12/same-quality-conversion-from-pdf-to-image-in-rmagick</id>
     <content type="html"><![CDATA[<p>Today one of my tasks was to convert a pdf to a png of the same quality, but sadly, all my attempts were all low resolution.<br />
 So after a little research on the documentation i found out the density option, which by default is 72. PDF is around 300, so 200 is a good tradeoff (at least, for now).<br />
 Also, i found a little bit misguiding that in some guides , the density declaration is after the write function, while should be right after you read the file&hellip;.by the way, here is a nice example! Enjoy!</p>

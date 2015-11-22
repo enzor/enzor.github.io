@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: bad_practices | My Blatant Rublings]]></title>
-  <link href="http://enzor.github.io/blog/categories/bad-practices/atom.xml" rel="self"/>
-  <link href="http://enzor.github.io/"/>
-  <updated>2015-11-22T11:44:33+00:00</updated>
-  <id>http://enzor.github.io/</id>
+  <link href="http://rublings.com/blog/categories/bad-practices/atom.xml" rel="self"/>
+  <link href="http://rublings.com/"/>
+  <updated>2015-11-22T11:56:31+00:00</updated>
+  <id>http://rublings.com/</id>
   <author>
     <name><![CDATA[Enzo Rivello]]></name>
     <email><![CDATA[vincenzo.rivello@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[About bad practices....]]></title>
-    <link href="http://enzor.github.io/blog/2013/10/23/about-bad-practices/"/>
+    <link href="http://rublings.com/blog/2013/10/23/about-bad-practices/"/>
     <updated>2013-10-23T10:27:00+01:00</updated>
-    <id>http://enzor.github.io/blog/2013/10/23/about-bad-practices</id>
+    <id>http://rublings.com/blog/2013/10/23/about-bad-practices</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/find.jpg" width="776" height="424"></p>
 ]]></content>
   </entry>
